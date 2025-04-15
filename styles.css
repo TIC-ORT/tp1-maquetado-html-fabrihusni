@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+    .top-nav {
+    background-color: #9FD8D5; 
+    height: 48px;
+  }
+  
+  .top-nav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .orange-box {
+    width: 96px;
+    height: 48px;
+    background-color: #F5A286; 
+  }
+  
+  .gray-box {
+    flex: 1; 
+    height: 48px;
+    background-color: #EEEEEE; 
+    margin: 0 4px;
+  }
+  
+  .dark-gray-box {
+    width: 224px;
+    height: 48px;
+    background-color: #DDDDDD; 
+  }
+  
+ 
+  .browser-bar {
+    background-color: #EEEEEE;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .browser-button {
+    width: 24px;
+    height: 24px;
+    background-color: #CCCCCC;
+    margin: 0 8px;
+  }
+  
+  .address-bar {
+    flex: 1;
+    background-color: white;
+    height: 32px;
+    margin: 0 8px;
+    border-radius: 2px;
+  }
+  
+  .main-content {
+    flex: 1;
+    background-color: #5F6266; 
+    padding: 28px;
+  }
+  
+ 
+  .main-section {
+    background-color: white;
+    margin-bottom: 16px;
+    display: flex;
+  }
+  
+ 
+  .sidebar {
+    width: 256px;
+    background-color: #9FD8D5; 
+    padding: 24px;
+  }
+  
+  .sidebar-item {
+    background-color: white;
+    height: 32px;
+    margin-bottom: 24px;
+  }
+  
+  .sidebar-button {
+    background-color: #5F6266;
+    height: 32px;
+    width: 96px;
+    margin: 0 auto;
+  }
+  
+ 
+  .content-area {
+    flex: 1;
+    padding: 24px;
+  }
+  
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  
+  .arrow {
+    width: 32px;
+    height: 32px;
+    color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  
+  .carousel-content {
+    flex: 1;
+    margin: 0 16px;
+  }
+  
+  .carousel-title {
+    height: 16px;
+    background-color: #5F6266;
+    width: 60%;
+    margin-bottom: 12px;
+  }
+  
+  .carousel-line {
+    height: 8px;
+    background-color: #DDDDDD;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .carousel-line-short {
+    height: 8px;
+    background-color: #DDDDDD;
+    width: 80%;
+    margin-bottom: 8px;
+  }
+  
